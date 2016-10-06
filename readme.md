@@ -1,6 +1,10 @@
 # Sleep_Until.sh - YAD GUI for RTCWake: Make your computer sleep and wake up at a given time
 ## by Jorge A. Duarte
+
 SleepUntil is a bash script, which makes use of [YAD](https://code.google.com/archive/p/yad/) to capture data for *rtcwake* through a GUI Dialog. Through *rtcwake* the OS sleeps, and wakes up at a given time (today or tomorrow).
+
+![Alt text](SleepUntil.png?raw=true "Application Screenshot")
+
 ### Requirements:
 ####  Ubuntu: (might work on other distros):
 - For now it has been tested on Ubuntu 16.04
