@@ -9,9 +9,9 @@ SleepUntil is a bash script, which makes use of [YAD](https://code.google.com/ar
         - For now it has been tested on Ubuntu 16.04
     #### YAD:
     
-        '''
+        ```bash
         $ sudo apt-get install yad
-        '''
+        ```
     #### Hardware Clock:
         - Hardware clock must be set to UTC. If not, the script must be edited (remove the -d flag from rtcwake)
         
@@ -20,13 +20,13 @@ SleepUntil is a bash script, which makes use of [YAD](https://code.google.com/ar
     - Download the script *'sleep_until.sh'*
     
     - Change permissions to allow execution:
-      '''
+      ```bash
       $ chmod +x sleep_until.sh
-      '''
+      ```bash
     - Execute the script:
-      '''
+      ```bash
       $ ./sleep_until.sh
-      '''
+      ```
     - Input parameters on GUI:
       - Day: ['today' / 'tomorrow']
       - Time: [Time in 24h format (i.e. 06:30 or 22:15)]
