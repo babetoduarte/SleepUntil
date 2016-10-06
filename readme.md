@@ -9,7 +9,7 @@ SleepUntil is a bash script, which makes use of [YAD](https://code.google.com/ar
         - For now it has been tested on Ubuntu 16.04
     #### YAD:
     
-        ```bash
+        ```
         $ sudo apt-get install yad
         ```
     #### Hardware Clock:
@@ -20,11 +20,11 @@ SleepUntil is a bash script, which makes use of [YAD](https://code.google.com/ar
     - Download the script *'sleep_until.sh'*
     
     - Change permissions to allow execution:
-      ```bash
+      ```
       $ chmod +x sleep_until.sh
-      ```bash
+      ```
     - Execute the script:
-      ```bash
+      ```
       $ ./sleep_until.sh
       ```
     - Input parameters on GUI:
